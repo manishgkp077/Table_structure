@@ -1,0 +1,35 @@
+* {
+	box-sizing: border-box;
+}
+.site-main {
+	max-width: 960px;
+	width: 80%;
+	margin: 0 auto;
+	overflow-x: auto;
+}
+.header-style {
+	background-color: #005cb7;
+	color: #fff;
+	padding: 20px;
+}
+table {
+	width: 80%;
+	margin: 0 auto;
+}
+table, th, td {
+	border: 1px solid #005cb7;
+	text-align: center;
+	border-spacing: 0px;
+    border-collapse: collapse;
+    text-transform: capitalize;
+}
+th, td {
+	padding: 10px;
+}
+tbody tr:nth-of-type(2n+1) {
+	background-color: #e8e8e8;
+}
+.whole-row {
+	background-color: maroon;
+	color: #fff;	
+}
